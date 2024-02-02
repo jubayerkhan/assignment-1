@@ -1,0 +1,123 @@
+.container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1320px;
+}
+
+/* header style */
+.header {
+  /* align-items: center; */
+  width: 100%;
+  height: 600px;
+  background: #fff;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/banner.png);
+  /* background-image: url(../images/banner.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.new-year-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+  margin-bottom: 0;
+}
+.party-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  margin-top: 0;
+  text-align: center;
+}
+
+/* body style */
+
+/* new year container */
+
+.new-year-container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+.discount {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.holiday-deal {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-bottom: 5px; */
+}
+
+.catagory {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+/* party container design */
+
+.party {
+  /* background-image: url(../images/party-image.png); */
+  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/party-image.png);
+  height: 600px;
+  display: flex;
+}
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  padding-top: 125px;
+  margin-left: 125px;
+  margin-bottom: 25px;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 700px;
+  margin-left: 125px;
+}
+.join-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 160px;
+}
+.year-image {
+  margin-right: 130px;
+  margin-left: auto;
+  background-color: transparent;
+}
