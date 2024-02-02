@@ -83,6 +83,8 @@
     url(../images/party-image.png);
   height: 600px;
   display: flex;
+  width: 1320px;
+  border-radius: 16px;
 }
 .welcome-title {
   color: #fff;
@@ -120,4 +122,44 @@
   margin-right: 130px;
   margin-left: auto;
   background-color: transparent;
+}
+.p-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.party-detail {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: rgb(255, 235, 235);
+}
+.p-join-btn {
+  border-radius: 8px;
+  background: #f00;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
