@@ -244,3 +244,29 @@
   font-weight: 900;
   text-transform: capitalize;
 }
+/* footer design */
+footer {
+  background-color: black;
+  color: white;
+}
+.address {
+  display: flex;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+.address-col1 {
+  margin-left: 140px;
+}
+.address-col2 {
+  /* float: right; */
+  margin-left: 200px;
+}
+.social {
+  text-align: center;
+}
+
+.logo {
+  margin-right: 24px;
+}
